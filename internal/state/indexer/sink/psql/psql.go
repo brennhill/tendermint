@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"strings"
 	"time"
-
+	_ "github.com/lib/pq"
 	"github.com/gogo/protobuf/proto"
 	abci "github.com/tendermint/tendermint/abci/types"
 	"github.com/tendermint/tendermint/internal/state/indexer"
